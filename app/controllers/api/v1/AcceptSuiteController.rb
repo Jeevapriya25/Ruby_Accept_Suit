@@ -1,13 +1,11 @@
 require 'authorizenet' 
+# require_relative '../../../../../sample-code-ruby-master/sample-code-ruby-master/PaymentTransactions/create-an-accept-payment-transaction.rb'
+require 'authorizenetSample'
 
-module Api
- module V1
- 	class AcceptSuiteServiceController < ApplicationController
 
- 		def CreateCustomer()
-	 		response = create_customer_payment_profile(nil)
-	 		puts response
- 	    end
- 	end
- end
+def Test
+	response = create_an_accept_payment_transaction()
+	puts response
 end
+
+Test()
