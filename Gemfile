@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # ruby '2.2.6'
 
 gem "authorizenet"  , '~> 1.9.5'
-gem "authorizenetsample"  , '~> 1.9.5'
+# gem "authorizenetsample"  , '~> 1.9.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
