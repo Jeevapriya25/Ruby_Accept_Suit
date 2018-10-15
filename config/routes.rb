@@ -7,5 +7,5 @@ Rails.application.routes.draw do
 #   end
  # root controller: :accetsuites
  # resources :accetsuites
- get "acceptsuite/index" => "acceptsuites#index"
+ get "acceptsuite/acceptJs" => "acceptsuites#acceptJs"
  end
